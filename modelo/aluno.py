@@ -222,7 +222,7 @@ class Aluno:
         nome= input('Digite o nome do aluno: ')
         turma = input('Digite a turma do aluno: ')
         categoria = (input('Digite a nota do aluno: '))
-        dados_de_alunos = {'nome':nome, 'turma': turma, 'categoria':categoria}
+        dados_de_alunos = {'nome':nome, 'turma':turma, 'categoria':categoria}
         Aluno.alunos.append(dados_de_alunos)
             
         print("nome: ", nome, "turma: ", turma, "categoria: ", categoria)
